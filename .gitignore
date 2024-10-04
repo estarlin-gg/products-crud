@@ -1,0 +1,52 @@
+# Build Folders
+bin/
+obj/
+
+# Visual Studio Files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Specific
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pdb
+*.pdb
+
+# Packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+*.dotnet
+*.dotnet.*
+**/packages/*
+**/project.lock.json
+
+# Logs
+*.log
+
+# User-specific files
+*.sublime-project
+*.sublime-workspace
+
+# Config files
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+*.publishsettings
+
+# IDE Specific
+.idea/
+*.sln.ide
+
+# Others
+*.cache
+*.zip
+*.tar.gz
+*.tgz
+*.csv
+*.json
