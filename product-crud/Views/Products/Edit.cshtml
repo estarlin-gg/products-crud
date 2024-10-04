@@ -1,0 +1,30 @@
+@model product_crud.Models.Product
+
+<div class="container">
+    <h2>Edit Product</h2>
+    <form asp-action="Edit" method="post" class="d-flex flex-column gap-3 w-50">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save changes</button>
+        <a class="btn btn-secondary" asp-action="Index" asp-controller="Products">Cancel</a>
+
+    </form>
+</div>

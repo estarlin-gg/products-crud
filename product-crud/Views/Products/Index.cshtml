@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container ">
+    <div class="d-flex justify-content-between w-100 align-items-center p-2">
+        <h2>Products Lists</h2>
+        <a asp-controller="Products" asp-action="Create" class="btn btn-success ">Add Product</a>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+
+                <th>Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td class="text-capitalize">@product.Name</td>
+                    <td>@product.Description</td>
+                    <td>@product.Price.ToString("C")</td>
+                    <td>
+                        <div class="d-flex gap-2">
+                            <a class="btn btn-primary" asp-action="Edit" asp-controller="Products"
+                                asp-route-id="@product.Id">Edit</a>
+                            <a class="btn btn-danger" asp-action="Delete" asp-controller="Products"
+                                asp-route-id="@product.Id">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

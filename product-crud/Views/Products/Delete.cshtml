@@ -1,0 +1,20 @@
+@model product_crud.Models.Product
+
+<h2>Delete Product</h2>
+
+<div>
+    <h4>Are you sure you want to remove this product?</h4>
+    <div class="my-4">
+        <ul class="list-group ">
+            <li class="list-group-item"><span class="fw-bold">Name:</span> @Model.Name</li>
+            <li class="list-group-item"><span class="fw-bold">Description:</span>@Model.Description</li>
+            <li class="list-group-item"><span class="fw-bold">Price:</span>@Model.Price</li>
+        </ul>
+    </div>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
