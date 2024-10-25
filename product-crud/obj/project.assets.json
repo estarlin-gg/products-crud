@@ -2579,11 +2579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estar\\Desktop\\dev\\C#\\ITLA\\practica1\\products-crud\\product-crud\\product-crud.csproj",
+      "projectUniqueName": "C:\\Users\\estar\\Source\\Repos\\estarlin-gg\\products-crud\\product-crud\\product-crud.csproj",
       "projectName": "product-crud",
-      "projectPath": "C:\\Users\\estar\\Desktop\\dev\\C#\\ITLA\\practica1\\products-crud\\product-crud\\product-crud.csproj",
+      "projectPath": "C:\\Users\\estar\\Source\\Repos\\estarlin-gg\\products-crud\\product-crud\\product-crud.csproj",
       "packagesPath": "C:\\Users\\estar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estar\\Desktop\\dev\\C#\\ITLA\\practica1\\products-crud\\product-crud\\obj\\",
+      "outputPath": "C:\\Users\\estar\\Source\\Repos\\estarlin-gg\\products-crud\\product-crud\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\estar\\AppData\\Roaming\\NuGet\\NuGet.Config",

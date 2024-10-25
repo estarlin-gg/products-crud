@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "frpBXG8gIh4=",
+  "dgSpecHash": "nDt8GB58nwY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\estar\\Desktop\\dev\\C#\\ITLA\\practica1\\products-crud\\product-crud\\product-crud.csproj",
+  "projectFilePath": "C:\\Users\\estar\\Source\\Repos\\estarlin-gg\\products-crud\\product-crud\\product-crud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\estar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\estar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
